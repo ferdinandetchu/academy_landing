@@ -1,6 +1,5 @@
 'use client'
 
-import { useState } from 'react'
 import DetailsCard from './details'
 import AiImg from './ai'
 

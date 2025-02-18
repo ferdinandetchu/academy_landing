@@ -1,6 +1,5 @@
 'use client'
 
-import { useState } from 'react'
 import FaqsCard from './details'
 
 const faqs = [
