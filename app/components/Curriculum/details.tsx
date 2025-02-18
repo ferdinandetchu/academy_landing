@@ -10,7 +10,7 @@ type Details = {
     title: string
     description: string
     isAI: boolean
-    content: [Content]
+    content: Content[]
 }
 type CardProps = {
   details: Details
