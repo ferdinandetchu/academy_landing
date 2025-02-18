@@ -3,12 +3,6 @@
 import { useState } from 'react'
 import PlayIcon from './play'
 
-const imageUrl = [
-    '/img/googlelogowhite.png',
-    '/img/hashicorplogowhite.png',
-    '/img/stripelogowhite.png',
-    '/img/microsoftlogowhite.png'
-]
 
 export default function AdvertSection() {
   const [isPlaying, setIsPlaying] = useState(false)

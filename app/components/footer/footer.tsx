@@ -1,7 +1,5 @@
 'use client'
 
-import heroImage from '@/public/img/hero_image.jpg'
-
 const navigation = [
   { name: 'Facebook', href: '#' },
   { name: 'Instagram', href: '#' },
