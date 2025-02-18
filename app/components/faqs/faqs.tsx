@@ -55,7 +55,7 @@ export default function FaqsSection() {
       <div className='flex flex-col items-center justify-center text-white bg-[url(/img/faqs_image.png)] bg-cover bg-center'>
         <div className='dark:bg-black dark:bg-opacity-75 bg-primary bg-opacity-75 py-40 px-5 w-full h-full flex gap-4 flex-col justify-center items-center'>
             <h2 className='text-5xl font-semibold tracking-tight text-balanc sm:text-6xl text-center'>Frequently asked questions</h2>
-            <p className='text-center'>Got questions? We've got answers</p>
+            <p className='text-center'>Got questions? We have answers</p>
               <div className='border-secondary border-2 rounded-xl flex flex-col p-8 gap-4 justify-center items-center sm:w-1/2 mt-8'>
                   {faqs.map((item) => (
                       <FaqsCard details={item} key={item.title} />
