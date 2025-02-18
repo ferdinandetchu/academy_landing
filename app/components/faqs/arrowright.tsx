@@ -1,9 +1,6 @@
 'use client'
 
-import { useState } from 'react'
-
 export default function ArrowRight() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
     <svg className='w-4' version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129" xmlnsXlink="http://www.w3.org/1999/xlink" enableBackground="new 0 0 129 129">

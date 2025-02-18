@@ -1,6 +1,5 @@
 'use client'
 
-import { useState } from 'react'
 import heroImage from '@/public/img/hero_image.jpg'
 
 const navigation = [
@@ -11,7 +10,6 @@ const navigation = [
 ]
 
 export default function AppFooter() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
     <footer className="inset-x-0  bg-[url(/img/faqs_image.png)] bg-cover bg-center">

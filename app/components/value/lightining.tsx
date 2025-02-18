@@ -1,9 +1,6 @@
 'use client'
 
-import { useState } from 'react'
-
 export default function LightiningIcon() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
     <svg className='w-5' viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">

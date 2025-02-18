@@ -3,7 +3,6 @@
 import { useState } from 'react'
 
 export default function AiImg() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
     <svg width="217" height="227" viewBox="0 0 217 227" fill="none" xmlns="http://www.w3.org/2000/svg">

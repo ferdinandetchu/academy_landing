@@ -1,8 +1,5 @@
 'use client'
 
-import { useState } from 'react'
-import heroImage from '@/public/img/hero_image.jpg'
-
 const imageUrl = [
     '/img/googlelogowhite.png',
     '/img/hashicorplogowhite.png',
@@ -11,7 +8,6 @@ const imageUrl = [
 ]
 
 export default function Herosection() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
     <div className='h-screen bg-[url(/img/hero_image.jpg)] bg-cover bg-center'>

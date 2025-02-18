@@ -1,9 +1,6 @@
 'use client'
 
-import { useState } from 'react'
-
 export default function SpannerIcon() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
     <svg className='w-5' xmlns="http://www.w3.org/2000/svg" xmlSpace="preserve" version="1.1" 

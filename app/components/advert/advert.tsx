@@ -11,7 +11,6 @@ const imageUrl = [
 ]
 
 export default function AdvertSection() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [isPlaying, setIsPlaying] = useState(false)
   const handleTogglePlay = () => {
     setIsPlaying(!isPlaying)

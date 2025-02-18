@@ -1,7 +1,5 @@
 'use client'
 
-import { useState } from 'react'
-
 const navigation = [
   { name: 'Home', href: '#' },
   { name: 'Testimonials', href: '#' },
@@ -13,7 +11,6 @@ const navigation = [
 ]
 
 export default function AppToolbar() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
     <header className="fixed inset-x-0 top-0 z-50 backdrop-blur-sm">

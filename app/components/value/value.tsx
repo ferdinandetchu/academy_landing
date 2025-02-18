@@ -1,6 +1,5 @@
 'use client'
 
-import { useState } from 'react'
 import FireIcon from './fire'
 import LightiningIcon from './lightining'
 import SpannerIcon from './spanner'
@@ -9,7 +8,6 @@ import CloudIcon from './cloud'
 import MoneyIcon from './money'
 
 export default function ValueSection() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
       <div className='flex flex-col items-center justify-center bg-[url(/img/mediocrity_image.jpg)] bg-cover bg-center'>
