@@ -1,23 +1,25 @@
 import TickedIcon from "./ticke"
+import Link from 'next/link'
 
 const tiers = [
   {
-    name: 'Global (USD)',
+    name: 'Pay Fully',
     id: 'tier-hobby',
     href: '#',
-    priceMonthly: '$2,000',
-    description: "The perfect plan if you're not registering from Cameroon.",
-    features: ['Online Classes Only', 'Flexible Scheduling', 'Perosnal Coach', '3 Real world projects', 'Job preparation'],
+    priceMonthly: '$5,000',
+    description: "The perfect plan if you're not intrested in the scholarship.",
+    features: ['Online & Onsite Classes Only', 'Flexible Scheduling', 'Perosnal Coach', '3 Real world projects', 'Job preparation'],
     featured: false,
   },
   {
-    name: 'Cameroon (XAF)',
+    name: 'Scholarship',
     id: 'tier-enterprise',
-    href: '#',
+    href: '/enrolment',
     priceMonthly: '150,000 XAF',
-    description: "The perfect plan if you're registering from Cameroon.",
+    description: "Scholarship partly sponsored by Google and CompTIA",
     features: [
-        'Online Classes',
+      'Google & CompTIA Scholarship',
+      'Online Classes',
         'Onsite Classes',
         'Flexible Scheduling',
         'Perosnal Coach',
@@ -34,7 +36,7 @@ function classNames(...classes: string[]) {
 
 export default function PricingSection() {
   return (
-    <div className="relative isolate px-6 py-24 sm:py-32 lg:px-8">
+    <div id="pricing" className="relative isolate px-6 py-24 sm:py-32 lg:px-8">
       <div aria-hidden="true" className="absolute inset-x-0 -top-3 -z-10 transform-gpu overflow-hidden px-36 blur-3xl">
         <div
           style={{
@@ -51,7 +53,7 @@ export default function PricingSection() {
         </p>
       </div>
       <p className="mx-auto mt-6 max-w-2xl text-center text-lg font-medium text-pretty text-gray-600 sm:text-xl/8">
-        Choose an affordable plan that best works for your location.
+        Choose an affordable plan that best works for you.
       </p>
       <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2">
         {tiers.map((tier, tierIdx) => (
@@ -82,7 +84,7 @@ export default function PricingSection() {
               >
                 {tier.priceMonthly}
               </span>
-              <span className={classNames(tier.featured ? 'text-gray-400' : 'text-gray-400', 'text-base')}>/6Months</span>
+              <span className={classNames(tier.featured ? 'text-gray-400' : 'text-gray-400', 'text-base')}>/12 Months</span>
             </p>
             <p className={classNames(tier.featured ? 'text-gray-300' : 'text-gray-100', 'mt-6 text-base/7')}>
               {tier.description}
@@ -101,7 +103,7 @@ export default function PricingSection() {
                 </li>
               ))}
             </ul>
-            <a
+            <Link
               href={tier.href}
               aria-describedby={tier.id}
               className={classNames(
@@ -112,7 +114,7 @@ export default function PricingSection() {
               )}
             >
               Enrol Now
-            </a>
+            </Link>
           </div>
         ))}
       </div>

@@ -10,7 +10,7 @@ import MoneyIcon from './money'
 export default function ValueSection() {
 
   return (
-      <div className='flex flex-col items-center justify-center bg-[url(/img/mediocrity_image.jpg)] bg-cover bg-center'>
+      <div id='value' className='flex flex-col items-center justify-center bg-[url(/img/mediocrity_image.jpg)] bg-cover bg-center'>
         <div className='bg-primary dark:bg-black dark:bg-opacity-75 bg-opacity-75 text-white py-40 px-5 w-full h-full flex gap-4 flex-col justify-center items-center'>
             <h2 className='text-5xl font-semibold tracking-tight text-balanc sm:text-6xl text-center'>Why settle for mediocrity?</h2>
             <p className='text-center'>The only way to become a great developer is to write a lot of code</p>

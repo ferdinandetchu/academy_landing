@@ -27,7 +27,7 @@ export default function DetailsCard(props: CardProps) {
                 <div>
                     <h3 className='text-xl font-bold mb-3'>{props.details.title}
                         {(props.details.isAI && 
-                            <span className='ml-4 px-4 py-1 ring-1 text-nowrap ring-gray-500 text-xs rounded-full'>Learn to aply AI</span>
+                            <span className='ml-4 px-4 py-1 ring-1 text-nowrap ring-gray-500 text-xs rounded-full'>Learn to apply AI</span>
                         )}
                     </h3>
                     <p>{ props.details.description }</p>
@@ -46,7 +46,7 @@ export default function DetailsCard(props: CardProps) {
                             <li key={item.title} className='my-3'>
                                 <h4 className='font-bold mb-2'>{item.title} 
                                     {(item.isAI) &&
-                                        <span className='font-normal text-nowrap ml-4 px-4 py-1 ring-1 ring-gray-500 text-xs rounded-full'>Learn to aply AI</span>
+                                        <span className='font-normal text-nowrap ml-4 px-4 py-1 ring-1 ring-gray-500 text-xs rounded-full'>Learn to apply AI</span>
                                     }
                                 </h4>
                                 <p className='ml-4'>{ item.description }</p>

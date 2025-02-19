@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Link from 'next/link'
 import PlayIcon from './play'
 
 
@@ -10,11 +11,11 @@ export default function AdvertSection() {
     setIsPlaying(!isPlaying)
   }
   return (
-    <div className='flex flex-wrap my-10 p-6 gap-6 justify-center items-center sm:h-screen'>
+    <div id='testimonials' className='flex flex-wrap my-10 p-6 gap-6 justify-center items-center sm:h-screen'>
         <div className='sm:w-1/3'>
             <h2 className='text-5xl font-semibold tracking-tight text-balanc sm:text-6xl'>Launch a career in tech that lasts</h2>
               <p className='mb-4'>Launch a new career as a web developer in as little as 12 months.</p>
-              <a href='#' className='font-bold px-4 py-2 bg-secondary text-black rounded-full hover:bg-white hover:ring-secondary hover:ring-2'>Get Started <span aria-hidden="true">&rarr;</span></a>
+              <Link href='/enrolment' className='font-bold px-4 py-2 bg-secondary text-black rounded-full hover:bg-white hover:ring-secondary hover:ring-2'>Get Started <span aria-hidden="true">&rarr;</span></Link>
       </div>
       {
         (isPlaying) ? (
