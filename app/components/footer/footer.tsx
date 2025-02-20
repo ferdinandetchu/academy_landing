@@ -1,10 +1,10 @@
 'use client'
 
 const navigation = [
-  { name: 'Facebook', href: '#' },
-  { name: 'Instagram', href: '#' },
+  { name: 'Facebook', href: 'https://web.facebook.com/pavewaygroup' },
+  { name: 'Instagram', href: 'https://www.instagram.com/pavewaygroupinc' },
   { name: 'WhatsApp Community', href: '#' },
-  { name: 'LinkedIn', href: '#' }
+  { name: 'LinkedIn', href: 'https://www.linkedin.com/company/pavewaygroup' }
 ]
 
 export default function AppFooter() {

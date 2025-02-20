@@ -27,7 +27,7 @@ export default function AppToolbar() {
           ))}
         </div>
         <div className="lg:flex lg:flex-1 lg:justify-end">
-          <Link href="/enrolment" className="text-sm/6 font-semibold bg-secondary text-black px-4 py-2 rounded-full hover:bg-white hover:ring-secondary hover:ring-2">
+          <Link href="https://forms.gle/oJganWKpg5yp3JCc8" className="text-sm/6 font-semibold bg-secondary text-black px-4 py-2 rounded-full hover:bg-white hover:ring-secondary hover:ring-2">
             Enrol Now <span aria-hidden="true">&rarr;</span>
           </Link>
         </div>

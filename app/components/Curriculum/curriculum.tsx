@@ -154,7 +154,7 @@ export default function CurriculumSection() {
         <div className='sm:w-1/3'>
             <h2 className='text-5xl font-semibold tracking-tight text-balanc sm:text-6xl mb-4'>Hands-on education in the <span className="text-primary">skills of the future</span></h2>
             <p className='my-4'>We work together with skilled industry experts to create learning materials to get you job-ready. Manage your schedule however you like and dedicate anything from 15 to 40 hours per week to your studies.</p>
-            <Link href="/enrolment" className="text-sm/6 font-semibold bg-secondary text-black px-4 py-2 rounded-full hover:bg-white hover:ring-secondary hover:ring-2">
+            <Link href="https://forms.gle/oJganWKpg5yp3JCc8" className="text-sm/6 font-semibold bg-secondary text-black px-4 py-2 rounded-full hover:bg-white hover:ring-secondary hover:ring-2">
                 Enrol Now <span aria-hidden="true">&rarr;</span>
             </Link>
         </div>

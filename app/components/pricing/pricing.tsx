@@ -5,7 +5,7 @@ const tiers = [
   {
     name: 'Pay Fully',
     id: 'tier-hobby',
-    href: '#',
+    href: 'https://forms.gle/Nckrt8i4VMEAhmd16',
     priceMonthly: '$5,000',
     description: "The perfect plan if you're not intrested in the scholarship.",
     features: ['Online & Onsite Classes Only', 'Flexible Scheduling', 'Perosnal Coach', '3 Real world projects', 'Job preparation'],
@@ -14,8 +14,8 @@ const tiers = [
   {
     name: 'Scholarship',
     id: 'tier-enterprise',
-    href: '/enrolment',
-    priceMonthly: '150,000 XAF',
+    href: 'https://forms.gle/oJganWKpg5yp3JCc8',
+    priceMonthly: '$250',
     description: "Scholarship partly sponsored by Google and CompTIA",
     features: [
       'Google & CompTIA Scholarship',
@@ -53,9 +53,9 @@ export default function PricingSection() {
         </p>
       </div>
       <p className="mx-auto mt-6 max-w-2xl text-center text-lg font-medium text-pretty text-gray-600 sm:text-xl/8">
-        Choose an affordable plan that best works for you.
+        There is an application fee of $30, You will only pay the application fee after you have been accepted
       </p>
-      <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2">
+      <div className="mx-auto mt-10 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2">
         {tiers.map((tier, tierIdx) => (
           <div
             key={tier.id}
