@@ -20,11 +20,12 @@ const tiers = [
     features: [
       'Google & CompTIA Scholarship',
       'Online Classes',
-        'Onsite Classes',
-        'Flexible Scheduling',
-        'Perosnal Coach',
-        '3 Real world projects',
-        'Job preparation'
+      'Onsite Classes',
+      'Flexible Scheduling',
+      'Perosnal Coach',
+      '3 Real world projects',
+      'Job preparation',
+      'Must be a Cameroonian and in Cameroon'
     ],
     featured: true,
   },

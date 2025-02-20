@@ -163,13 +163,14 @@ export default function CurriculumSection() {
                 <DetailsCard key={item.title} details={item} />  
             ))}
         </div>
-          <div className='sm:w-2/3 rounded-xl bg-gray-300 dark:bg-gray-900 p-8 flex flex-wrap justify-between items-center'>
-              <div className='sm:w-2/3'>
-                  <h2 className='font-bold text-xl sm:text-2xl mb-4'>Will the Full-Stack Web Development Program teach me how to use AI tools and techniques?</h2>
-                  <p>You will learn to use AI in a way that is reflective of how real-world tasks are approached in the industry, while still building the core skills of your new profession. In doing so, you will learn to use AI to aid your learning, rather than bypass the learning process, and to support you professionally—rather than replace you.</p>
-              </div>
-              <AiImg />
-        </div>
+        <div className='sm:w-2/3 rounded-xl bg-gray-300 dark:bg-gray-900 p-8 flex flex-wrap justify-between items-center'>
+            <div className='sm:w-2/3'>
+                <h2 className='font-bold text-xl sm:text-2xl mb-4'>Will the Full-Stack Web Development Program teach me how to use AI tools and techniques?</h2>
+                <p>You will learn to use AI in a way that is reflective of how real-world tasks are approached in the industry, while still building the core skills of your new profession. In doing so, you will learn to use AI to aid your learning, rather than bypass the learning process, and to support you professionally—rather than replace you.</p>
+            </div>
+            <AiImg />
+          </div>
+          <h3 className='w-full text-2xl font-semibold tracking-tight text-balanc text-center'><a className='underline text-secondary' href="https://docs.google.com/document/d/11iEeGykRRLJlOQzNkqWjJQnPxhhbT5aPlPbK2J-N14o/edit?usp=sharing">PC system specifications</a> for these course </h3>
     </div>
   )
 }
