@@ -1,8 +1,5 @@
 'use client'
 
-import { Certificate } from "crypto"
-import { title } from "process"
-
 const engineers = [
     {
         url: '/img/Ferdinand.jpg',
