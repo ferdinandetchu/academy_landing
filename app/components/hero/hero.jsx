@@ -26,7 +26,7 @@ export default function Herosection() {
                 </div>
                 <div className='flex flex-wrap gap-4 justify-center mb-4'>
                   {imageUrl.map((url) => (
-                      <img key={url} src={url} alt="google logo" className='w-32' />
+                      <img key={url} src={url} alt="google logo" className='w-32 animate-bounce' />
                   ))}
                 </div>
             </div>

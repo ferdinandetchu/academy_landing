@@ -52,7 +52,7 @@ const faqs = [
 export default function FaqsSection() {
 
   return (
-      <div id='faq' className='flex flex-col items-center justify-center text-white bg-[url(/img/faqs_image.png)] bg-cover bg-center'>
+      <div id='faq' className='flex flex-col items-center justify-center text-white'>
         <div className='dark:bg-black dark:bg-opacity-75 bg-primary bg-opacity-75 py-40 px-5 w-full h-full flex gap-4 flex-col justify-center items-center'>
             <h2 className='text-5xl font-semibold tracking-tight text-balanc sm:text-6xl text-center'>Frequently asked questions</h2>
             <p className='text-center'>Got questions? We have answers</p>
