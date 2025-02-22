@@ -33,7 +33,8 @@ export default function RootLayout({
         <AppToolbar />
         {children}
         <AppFooter />
-        <Script src="https://js-na1.hs-scripts.com/49371839.js" />
+        {/* <Script src="https://js-na1.hs-scripts.com/49371839.js" /> */}
+        <Script src="'//uae.fw-cdn.com/40178839/110001.js" />
       </body>
     </html>
   );

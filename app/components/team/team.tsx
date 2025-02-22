@@ -1,4 +1,5 @@
 'use client'
+
 import Link from "next/link"
 
 const engineers = [
@@ -78,7 +79,7 @@ export default function TeamSection() {
       <div id='team' className='flex flex-col items-center justify-center text-white bg-[url(/img/faqs_image.png)] bg-cover bg-center'>
         <div className='dark:bg-black dark:bg-opacity-75 bg-primary bg-opacity-75 py-40 px-5 w-full h-full flex gap-4 flex-col justify-center items-center'>
             <h2 className='text-5xl font-semibold tracking-tight text-balanc sm:text-6xl text-center'>Taught by the best</h2>
-            <p className='text-center'>Modern courses taught by engineers with over 7+ years of experince</p>
+            <p className='text-center'>Modern courses taught by engineers with over 27+ years of experince</p>
             <ul className='flex flex-wrap p-8 gap-4 justify-center items-center sm:w-1/2 mt-8'>
                 {engineers.map((engineer) => (
                     <li key={engineer.name} className='relative flex flex-col gap-2 justify-center items-center p-4 bg-gray-700 rounded-md bg-opacity-45 hover:bg-opacity-35'>
@@ -93,7 +94,7 @@ export default function TeamSection() {
                     </li>
                 ))}
             </ul>
-            <h3 className='text-2xl font-semibold tracking-tight text-balanc sm:text-3xl text-center mt-8'>Other Fullstack Developer Certification</h3>
+            <h3 className='text-2xl font-semibold tracking-tight text-balanc sm:text-3xl text-center mt-8'>Fullstack Developer Certifications</h3>
               <p className='text-center'>Enroll into specific course to get particular certifications.</p>
               <ul className="flex flex-wrap p-8 gap-4 justify-center items-center sm:w-1/2 mt-2">
                   {certifications.map((Certificate) => (
