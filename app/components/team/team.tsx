@@ -1,4 +1,5 @@
 'use client'
+import Link from "next/link"
 
 const engineers = [
     {
@@ -97,13 +98,13 @@ export default function TeamSection() {
               <ul className="flex flex-wrap p-8 gap-4 justify-center items-center sm:w-1/2 mt-2">
                   {certifications.map((Certificate) => (
                       <li key={Certificate.title} className="">
-                          <a href="/#" className="flex gap-2 items-center justify-center p-4 bg-gray-700 rounded-md bg-opacity-45 hover:bg-opacity-35">
+                          <Link href="/#" className="flex gap-2 items-center justify-center p-4 bg-gray-700 rounded-md bg-opacity-45 hover:bg-opacity-35">
                               <span className="relative flex size-3">
                                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-secondary opacity-75"></span>
                                 <span className="relative inline-flex size-3 rounded-full bg-secondary"></span>
                             </span>
                             <h4 className='text-center'> {Certificate.title} </h4>
-                          </a>
+                          </Link>
                       </li>
                   ))}
               </ul>
