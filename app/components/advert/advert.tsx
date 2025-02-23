@@ -15,7 +15,7 @@ export default function AdvertSection() {
         <div className='sm:w-1/3'>
             <h2 className='text-5xl font-semibold tracking-tight text-balanc sm:text-6xl'>Launch a career in tech that lasts</h2>
               <p className='mb-4'>Launch a new career as a web developer in as little as 12 months.</p>
-              <Link href='https://forms.gle/oJganWKpg5yp3JCc8' className='font-bold px-4 py-2 bg-secondary text-black rounded-full hover:bg-white hover:ring-secondary hover:ring-2'>Get Started <span aria-hidden="true">&rarr;</span></Link>
+              <Link href='https://docs.google.com/forms/d/e/1FAIpQLScFm02odtuL2TSL3M0S6i2B8RuAtTQ99u88f-sp-T2RxRetSQ/viewform?usp=sharing' className='font-bold px-4 py-2 bg-secondary text-black rounded-full hover:bg-white hover:ring-secondary hover:ring-2'>Get Started <span aria-hidden="true">&rarr;</span></Link>
       </div>
       {
         (isPlaying) ? (

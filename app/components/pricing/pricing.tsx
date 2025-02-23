@@ -5,7 +5,7 @@ const tiers = [
   {
     name: 'Global Fee',
     id: 'tier-hobby',
-    href: 'https://forms.gle/Nckrt8i4VMEAhmd16',
+    href: 'https://docs.google.com/forms/d/e/1FAIpQLScFm02odtuL2TSL3M0S6i2B8RuAtTQ99u88f-sp-T2RxRetSQ/viewform?usp=sharing',
     priceMonthly: '$5,000',
     description: "The perfect plan if you're not in Africa",
     features: [
@@ -22,7 +22,7 @@ const tiers = [
   {
     name: 'Africa Fee',
     id: 'tier-enterprise',
-    href: 'https://forms.gle/oJganWKpg5yp3JCc8',
+    href: 'https://docs.google.com/forms/d/e/1FAIpQLScFm02odtuL2TSL3M0S6i2B8RuAtTQ99u88f-sp-T2RxRetSQ/viewform?usp=sharing',
     priceMonthly: '$2,000',
     description: "Financial Aid of up to  $1,750 Scholarship for Cameroonians sponsored by Google and CompTIA",
     features: [

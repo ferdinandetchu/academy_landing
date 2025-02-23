@@ -22,9 +22,9 @@ const imageUrl = [
 export default function AppFooter() {
 
   return (
-    <footer className="bg-gradient-to-t from-primary bg-opacity-50 w-full min-h-svh flex items-center justify-center">
+    <footer className="bg-gradient-to-t from-primary bg-opacity-50 text-black dark:text-white py-20 w-full  flex items-center justify-center">
       <nav aria-label="Global" className="h-full w-full flex flex-col items-center justify-center p-2 lg:px-8">
-         <div className="text-white flex-wrap flex gap-4 lg:flex lg:gap-x-12 justify-center items-center">
+         <div className="text-black dark:text-white flex-wrap flex gap-4 lg:flex lg:gap-x-12 justify-center items-center">
             {navigation.map((item) => (
                 <a key={item.name} href={item.href} className="text-sm/6 font-semibold underline">
                 {item.name}
@@ -39,13 +39,13 @@ export default function AppFooter() {
             ))}
           </div>
         </div>
-        <div className="text-white flex-wrap flex gap-4 lg:flex lg:gap-x-12 justify-center items-center">
+        <div className="text-black dark:text-white flex-wrap flex gap-4 lg:flex lg:gap-x-12 justify-center items-center">
             {bottomNavigation.map((item) => (
                 <a key={item.name} href={item.href} className="text-sm/6 font-semibold underline">
                 {item.name}
                 </a>
             ))}
-          <p className="w-full text-center text-gray-400">&copy; PaveWay Academy {new Date().getFullYear()} All rights reserved.</p>
+          <p className="w-full text-center dark:text-gray-400 text-white">&copy; PaveWay Academy {new Date().getFullYear()} All rights reserved.</p>
           <Link href='/#home'>
             <img className='w-32 rounded-sm mr-2' src="/img/academy_vertical_logo_white.png" alt="" />
           </Link>

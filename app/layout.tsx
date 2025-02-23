@@ -27,6 +27,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <Script src="'http://uae.fw-cdn.com/40178839/110001.js" chat='true'/>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased dark`}
       >
@@ -34,7 +37,6 @@ export default function RootLayout({
         {children}
         <AppFooter />
         {/* <Script src="https://js-na1.hs-scripts.com/49371839.js" /> */}
-        <Script src="'//uae.fw-cdn.com/40178839/110001.js" />
       </body>
     </html>
   );
