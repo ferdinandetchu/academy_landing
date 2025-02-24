@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <Script src="'http://uae.fw-cdn.com/40178839/110001.js" chat='true'/>
+        <Script src="'http://uae.fw-cdn.com/40178839/110001.js" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased dark`}
