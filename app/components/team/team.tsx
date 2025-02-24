@@ -10,7 +10,7 @@ const engineers = [
     {
         url: '/img/Ferdinand.jpg',
         name: 'Etchu Ferdinand',
-        describe: 'Sinior Front-End Devloper with 5+ years of experince',
+        describe: 'Senior Front-End Devloper with 5+ years of experince',
         instagram: 'https://www.instagram.com/ferdinandetchu',
         facebook: 'https://m.facebook.com/mbiarrambang.etchu',
         github: 'https://github.com/ferdinandetchu',
@@ -18,8 +18,8 @@ const engineers = [
     },
     {
         url: '/img/alain.jpg',
-        name: 'Alain Mbeng',
-        describe: 'Full-Stack Devloper & Cloud Engineer with 10+ years of experince',
+        name: 'Mbiarrambang Alain',
+        describe: 'Software & Cloud Engineer with 10+ years of experince',
         instagram: 'https://www.instagram.com/ferdinandetchu',
         facebook: 'https://m.facebook.com/mbiarrambang.etchu',
         github: 'https://github.com/ferdinandetchu',
@@ -28,7 +28,25 @@ const engineers = [
     {
         url: '/img/penn.jpg',
         name: 'Nyah Penn',
-        describe: 'Sinior Front End Devloper with 5+ years of experince',
+        describe: 'Brand, Marketing and Communications Specialist with 6+ years of experince',
+        instagram: 'https://www.instagram.com/ferdinandetchu',
+        facebook: 'https://m.facebook.com/mbiarrambang.etchu',
+        github: 'https://github.com/ferdinandetchu',
+        linkedin: 'https://cm.linkedin.com/in/ferdinandetchu'
+    },
+    {
+        url: '/img/Fotie.jpg',
+        name: 'Fotie M. Constant',
+        describe: 'AI Engineer with 4+ years of experince',
+        instagram: 'https://www.instagram.com/ferdinandetchu',
+        facebook: 'https://m.facebook.com/mbiarrambang.etchu',
+        github: 'https://github.com/ferdinandetchu',
+        linkedin: 'https://cm.linkedin.com/in/ferdinandetchu'
+    },
+    {
+        url: '/img/marivon.jpg',
+        name: 'Marivon Sofo',
+        describe: 'Media and communication  specialists with 4+ years of experince',
         instagram: 'https://www.instagram.com/ferdinandetchu',
         facebook: 'https://m.facebook.com/mbiarrambang.etchu',
         github: 'https://github.com/ferdinandetchu',
